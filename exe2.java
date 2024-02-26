@@ -1,3 +1,12 @@
+/*
+2. Escreva um programa Java que leia dois inteiros Min e Max. O valor de Min deve ser no mínimo 2. O valor de Max deve ser
+obrigatoriamente maior que Min e menor ou igual a 999999. O programa deve carregar um ArrayList de inteiros com todos os
+números primos existentes no intervalo fechado [Min, Max]. Ao final mostre na tela esses números primos e quantos foram
+encontrados. Para verificar se um número é primo crie um método que recebe n como parâmetro e retorna um boolean true se
+n for primo, ou false se n não for primo.
+
+*/
+
 package lista2.Banin.DispMov;
 import java.util.Scanner;
 import java.util.ArrayList;
