@@ -1,5 +1,28 @@
+/*
+3. Escreva um programa que leia um número inteiro de 5 dígitos, ou seja, no intervalo fechado [10.000, 99.999]. Crie um método
+que receba esse número inteiro e calcule um dígito verificador segundo a regra a seguir. A regra de cálculo desse dígito verificador
+tem o nome de módulo 7.
+Exemplo: se o código for 21468, o dígito verificador será 3.
+
+Em primeiro lugar deve-se tomar cada dígito individualmente e multiplicá-lo pelo peso apropriado. O peso do dígito menos
+significativo é 6, o peso do segundo dígito menos significativo é 5 e assim por diante, conforme mostrado na tabela. Os resultados
+das multiplicações devem ser somados e por fim calcula-se o resto dessa soma por 7
+
+Usando o Exemplo: 21468 
+
+| Digitos | 2 | 1 | 4 | 6 | 8 |
+|     Peso| 2 | 3 | 4 | 5 | 6 |
+|         | (2*2) + (1*3) + (4*4) + (6*5) + (8*6) = 101  
+
+resto 101 por 7 = 3 
+
+portanto: Digito verificador = 3. 
+
+referencia extra: metodo substring em java: https://www.guj.com.br/t/imprimir-posicao-string/74698
+
+*/
+
 package lista2.Banin.DispMov;
-//referencia: metodo substring em java: https://www.guj.com.br/t/imprimir-posicao-string/74698
 
 
 import java.util.Scanner;
@@ -37,8 +60,6 @@ public class exe3 {
       else{
           System.out.println("Digite um valor entre [10000 , 99999]");
       }
-
-
 
 
     }
