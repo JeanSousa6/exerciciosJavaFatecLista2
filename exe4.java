@@ -11,13 +11,11 @@ public class exe4{
 
         Scanner lerNum = new Scanner(System.in);
         ArrayList<Integer> numerosFibo = new ArrayList<>();
-        int n;
+        int n, cont = 0;
 
         System.out.print("Insira um número: ");
         n = lerNum.nextInt();
 
-
-        int cont = 0;
         for(int i = 0 ; i < n ; i++){
             if(i < 2) {
                 numerosFibo.add(i);
