@@ -1,6 +1,12 @@
+/* 
+
+1. Escreva um programa que leia um número inteiro n maior que 1 e mostre na tela se esse número é primo ou não. Lembrando:
+número primo é divisível apenas por 1 e por ele mesmo, ou seja, não é divisível por nenhum número entre 2 e n-1.
+
+*/
+
 package lista2.Banin.DispMov;
 import java.util.Scanner;
-
 
 public class exe1 {
     public static void main(String[] args){
